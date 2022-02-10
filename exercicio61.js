@@ -1,6 +1,6 @@
 // Configuração
 function testStrict(val) {
-    if (val) { // Altere esta linha
+    if (val===7) { // Altere esta linha
       return "Equal";
     }
     return "Not Equal";
