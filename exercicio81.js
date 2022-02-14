@@ -9,7 +9,9 @@ Lembre-se de que undefined é uma palavra-chave e não uma string.
 function abTest(a, b) {
     // Altere apenas o código abaixo desta linha
   
-  
+    if (a < 0 || b < 0) {
+      return undefined;
+    }
   
     // Altere apenas o código acima desta linha
   
