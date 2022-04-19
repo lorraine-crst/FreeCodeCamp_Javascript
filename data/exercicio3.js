@@ -1,21 +1,11 @@
- // Verifique se as seguintes variáveis são Truthy ou Falsy
- var nome = 'Andre';
- var idade = 28;
- var possuiDoutorado = false;
- var empregoFuturo;
- var dinheiroNaConta = 0;
- // Compare o total de habitantes do Brasil com China (valor em milhões)
- var brasil = 207;
- var china = 1340;
+//Definimos uma função, mixedNumbers, na qual estamos passando o array como um argumento. Modifique a função usando push() e unshift() para adicionar 'I', 2, 'three' no início do array e 7, 'VIII', 9 ao final para que o array retornado contenha a representação dos números de 1 a 9 em ordem.
 
- // 0 que irá aparecer no console?
- if (('Gato' === 'gato') && (5 > 2)) {
-     console.log('Verdadeiro');
- } else {
-     console.log('Falso');
-     // 0 que irá aparecer no console?
-     if (('Gato' === 'gato') || (5 > 2)) {
-         console.log('Gato' && 'Cão');
-     } else 1
-     console.log('Falso');
- }
+function mixedNumbers(arr) {
+    // Altere apenas o código abaixo desta linha
+  arr.unshift('I', 2, 'three');
+  arr.push(7, 'VIII', 9)
+    // Altere apenas o código acima desta linha
+    return arr;
+  }
+  
+  console.log(mixedNumbers(['IV', 5, 'six']));
