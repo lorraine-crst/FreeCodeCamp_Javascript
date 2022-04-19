@@ -1,0 +1,1 @@
+//Iniciamos um array arr. Use splice() para remover elementos do arr, para que apenas contenha elementos que somam ao valor de 10.
