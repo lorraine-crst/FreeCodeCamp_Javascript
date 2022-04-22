@@ -1,1 +1,0 @@
-//Definimos uma função, copyMachine que recebe arr (um array) e num (um número) como argumentos. A função deve retornar um novo array composto de num cópias de arr. Fizemos a maior parte do trabalho para você, mas isso ainda não está certo. Modifique a função usando a sintaxe de spread para que ela funcione corretamente (dica: outro método já mencionado pode ser útil aqui!).
